@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+NG+Modern:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+}
+
+.headerIndex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f1e4e8;
+    border-bottom: 2px solid #b97375;
+    color: #2d2d34;
+}
+
+.logoSection{
+    display: flex;
+    align-items: center;
+}
+
+.imgLogo{
+    width: 180px;
+}
+
+.title{
+    font-family: "Playwrite NG Modern", cursive;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2d2d34;
+}
+
+.navBar{
+    display: flex;
+}
+
+.btnNav{
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    color: #2d2d34;
+}
+
