@@ -11,6 +11,7 @@
     align-items: center;
     color: #f1e4e8;
     background: #2d2d34;
+    border-bottom: 2px solid #969696;
 }
 
 .logoSection{
@@ -108,13 +109,67 @@
     left: 80%;
 }
 
+.mainGallery{
+    background: #2d2d34;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-items: center;
+    padding: 40px 0 50px 0 ;
+    gap: 60px 20px;
+    border-bottom: 2px solid #969696;
+}
 
+.imgOne{
+    grid-column: 1;
+    width: 500px;
+}
+
+.textOne{
+    grid-column: 2;
+    width: 500px;
+    text-align: justify;
+    color: #f1e4e8;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+}
+
+.imgTwo{
+    grid-column: 2;
+    width: 500px;
+}
+
+.textTwo{
+    grid-column: 1;
+    grid-row: 2;
+    width: 500px;
+    text-align: justify;
+    color: #f1e4e8;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+}
+
+.imgThree{
+    grid-column: 1;
+    width: 500px;
+}
+
+.textThree{
+    grid-column: 2;
+    grid-row: 3;
+    width: 500px;
+    text-align: justify;
+    color: #f1e4e8;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2em;
+}
 
 .footerIndex{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background: #2d2d34;
+    padding: 40px 0 40px 0;
 }
 
 
