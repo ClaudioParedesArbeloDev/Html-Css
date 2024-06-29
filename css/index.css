@@ -148,7 +148,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background: #2d2d34; */
+    padding-bottom: 30px;
 }
 
 
