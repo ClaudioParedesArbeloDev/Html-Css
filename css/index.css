@@ -55,9 +55,9 @@ body{
 
 .btnNav:hover{
     letter-spacing: 0.25em;
-    background: #e06512;
-    color: #e06512 ;
-    box-shadow: 0 0 35px #e06512;
+    background: #3891f1;
+    color: #3891f1 ;
+    box-shadow: 0 0 35px #3891f1;
 }
 
 .btnNav::before{
@@ -122,7 +122,9 @@ body{
         font-size: 1.9em;
         color: #2d2d34;
         padding: 50px;
-        text-align: center;
+        text-align: end;
+        margin-right: 20px;
+        text-shadow: 10px 5px 30px #f1e4e8;
     }
 }
 .wrapperText{
@@ -130,7 +132,7 @@ body{
     justify-content: end;
 }
 .artMain{
-    margin: 50px;
+    margin: 0 40px 0 0;
     padding: 20px;
     border: 2px solid #2d2d34;
     border-radius: 10px;
@@ -146,7 +148,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: #2d2d34;
+    /* background: #2d2d34; */
 }
 
 .logoFooter{
@@ -162,6 +164,13 @@ body{
     
 }
 
+.copyright:hover{
+    color: #3891f1;
+    transform: scale(120%);
+    transition: 0.3s;
+    text-shadow: 0 0 15px #3891f1;
+}
+
 .socialMedia{
     display: flex;
     a{
@@ -169,11 +178,13 @@ body{
         i{
             color: #ceb1be;
             font-size: 1.8em;
-            padding: 10px;
+            margin: 10px;
         }    
         i:hover{
-            color: #e06512;
+            color: #3891f1;
+            transform: scale(120%);
             transition: 0.3s;
+            text-shadow: 0 0 15px #3891f1;
         }
     }
 
