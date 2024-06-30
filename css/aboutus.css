@@ -114,10 +114,14 @@
     color: #f1e4e8;
     font-family: "Roboto", sans-serif;
     padding: 50px;
+    display: flex;
+    justify-content: center;
 }
 .textAboutus{
+    width: 70vw;
     text-align: justify;
-    font-size: 1.4em;
+    font-size: 1.8em;
+    line-height: 2em;
 }
 
 .footerIndex{
