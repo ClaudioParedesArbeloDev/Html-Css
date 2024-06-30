@@ -116,16 +116,29 @@
     padding: 50px;
     display: flex;
     justify-content: center;
+    height: 60vh;
 }
 
 .formWrapper{
     display: flex;
     flex-direction: column;
+    h2{
+        padding-bottom: 30px;
+    }
     form{
         display: flex;
         font-size: 1.4em;
         flex-direction: column;
         width: 700px;
+        label{
+            padding: 20px 0 20px;
+        }
+        input{
+            padding: 10px;
+        }
+        input:focus{
+            border: 2px solid crimson;
+        }
     }
 }
 
